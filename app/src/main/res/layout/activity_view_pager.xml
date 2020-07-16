@@ -27,12 +27,12 @@
             android:background="@android:drawable/ic_menu_rotate" /-->
     </androidx.appcompat.widget.Toolbar>
 
-    <Bias.Homemade_Guardian_Beta.photoview.HackyViewPager
+    <bias.homemade_guardian_beta.photoview.HackyViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/view_pager"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1000">
-    </Bias.Homemade_Guardian_Beta.photoview.HackyViewPager>
+    </bias.homemade_guardian_beta.photoview.HackyViewPager>
 
 </LinearLayout>
