@@ -1,1 +1,2 @@
+rootProject.name='gujc.directtalk9'
 include ':app'
