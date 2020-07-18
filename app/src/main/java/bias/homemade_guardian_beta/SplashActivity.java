@@ -31,7 +31,7 @@ public class SplashActivity extends Activity {
             public void run() {
                 Intent mainIntent = null;
                 if (FirebaseAuth.getInstance().getCurrentUser()==null) {
-                    mainIntent = new Intent(SplashActivity.this, LoginActivity.class);
+                    mainIntent = new Intent(SplashActivity.this, LoginActivitytest.class);
                 } else {
                     mainIntent = new Intent(SplashActivity.this, MainActivity.class);
                 }

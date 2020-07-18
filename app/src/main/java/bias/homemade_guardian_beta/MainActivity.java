@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
             FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(this, LoginActivity.class);
+            Intent intent = new Intent(this, LoginActivitytest.class);
             this.startActivity(intent);
             this.finish();
 

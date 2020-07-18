@@ -76,6 +76,8 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
+
+                        //currentUser = mAuth.getCurrentUser();
                         sharedPreferences.edit().putString("user_id", id).commit();
                         final String uid = FirebaseAuth.getInstance().getUid();
 
